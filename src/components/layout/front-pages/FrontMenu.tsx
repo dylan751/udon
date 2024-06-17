@@ -151,7 +151,7 @@ const FrontMenu = (props: Props) => {
       />
       <Typography
         component={Link}
-        href='/'
+        href='https://hdwallet.toolhub.app'
         target='_blank'
         className='font-medium plb-3 pli-1.5 hover:text-primary'
         color='text.primary'

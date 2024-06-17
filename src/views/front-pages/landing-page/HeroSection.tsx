@@ -73,13 +73,22 @@ const HeroSection = ({ mode }: { mode: Mode }) => {
       <div className={classnames('pbs-16 overflow-hidden', frontCommonStyles.layoutSpacing)}>
         <div className='md:max-is-[550px] mlb-0 mli-auto text-center'>
           <Typography className='font-extrabold text-primary sm:text-[38px] text-3xl mbe-4 leading-[44px]'>
-            All in one sass application for your business
+            All in one financial tool for your business
           </Typography>
           <Typography className='font-medium' color='text.primary'>
-            No coding required to make customizations. The live customizer has everything your marketing need.
+            Remove the complexity from Financial Management tasks and free your team to do the amazing things they are
+            meant to do.
           </Typography>
           <div className='mbs-8'>
-            <Button component={Link} href='/home#pricing-plans' variant='contained' color='primary' size='large'>
+            <Button
+              component={Link}
+              href='https://hdwallet.toolhub.app'
+              target='_blank'
+              variant='contained'
+              color='primary'
+              size='large'
+              sx={{ mb: '2rem' }}
+            >
               Get Early Access
             </Button>
           </div>
@@ -89,8 +98,12 @@ const HeroSection = ({ mode }: { mode: Mode }) => {
         className={classnames('relative text-center', frontCommonStyles.layoutSpacing)}
         style={{ transform: `translate(${dashboardPosition.x}px, ${dashboardPosition.y}px)` }}
       >
-        <Link href='/' target='_blank'>
-          <img src={dashboardImage} alt='dashboard-image' className={classnames('mli-auto', styles.heroSecDashboard)} />
+        <Link href='https://hdwallet.toolhub.app' target='_blank'>
+          <img
+            src={dashboardImage}
+            alt='dashboard-image'
+            className={classnames('mli-auto w-3/4 rounded-xl', styles.heroSecDashboard)}
+          />
           <div className={classnames('absolute', styles.heroSectionElements)}>
             <img
               src={elementsImage}

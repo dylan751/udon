@@ -29,23 +29,23 @@ import frontCommonStyles from '@views/front-pages/styles.module.css'
 const feature = [
   {
     icon: <LaptopCharging />,
-    title: 'Quality Code',
-    description: 'Code structure that all developers will easily understand and fall in love with.'
+    title: 'Spend Less Time',
+    description: 'Automate tedious and repetitive tasks and speed up manual processes'
   },
   {
     icon: <TransitionUp />,
-    title: 'Continuous Updates',
-    description: 'Free updates for the next 12 months, including new demos and features.'
+    title: 'More Visibility',
+    description: 'Find out more about your Financial usage and discover Uncategorized Invoices'
   },
   {
     icon: <Edit />,
-    title: 'Stater-Kit',
-    description: 'Start your project quickly without having to remove unnecessary features.'
+    title: 'Reduce Costs',
+    description: 'Optimize your Project spending and uncover falsy datas'
   },
   {
     icon: <Cube />,
-    title: 'API Ready',
-    description: 'Just change the endpoint and see your own data loaded within seconds.'
+    title: 'Manage People',
+    description: 'Onboard newcomers and safely assign role for them'
   },
   {
     icon: <LifeBuoy />,
@@ -99,10 +99,10 @@ const UsefulFeature = () => {
             <Typography variant='h4' className='font-bold'>
               Everything you need
             </Typography>
-            <Typography variant='h5'>to start your next project</Typography>
+            <Typography variant='h5'>to manage your next project</Typography>
           </div>
           <Typography className='font-medium text-center'>
-            Not just a set of tools, the package includes ready-to-deploy conceptual application.
+            Not just a set of tools, the app includes innovative solutions for highly effective IT teams.
           </Typography>
         </div>
         <div>

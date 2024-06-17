@@ -37,7 +37,7 @@ const data = [
     position: 'Founder of Hubspot'
   },
   {
-    desc: 'Materio is awesome, and I particularly enjoy knowing that if I get stuck on something.',
+    desc: 'Cashbook is awesome, and I particularly enjoy knowing that if I get stuck on something.',
     svg: <Levis color='#A8112E' />,
     rating: 5,
     name: 'Tommy haffman',
@@ -73,7 +73,7 @@ const data = [
     color: '#2882C3'
   },
   {
-    desc: 'Materio is awesome, and I particularly enjoy knowing that if I get stuck on something.',
+    desc: 'Cashbook is awesome, and I particularly enjoy knowing that if I get stuck on something.',
     svg: <Levis color='#A8112E' />,
     rating: 5,
     name: 'Tommy haffman',
@@ -94,7 +94,7 @@ const data = [
     position: 'Founder of Continental'
   },
   {
-    desc: 'Materio is awesome, and I particularly enjoy knowing that if I get stuck on something.',
+    desc: 'Cashbook is awesome, and I particularly enjoy knowing that if I get stuck on something.',
     svg: <Dribbble color='#ea4c89' />,
     rating: 5,
     name: 'Tommy haffman',

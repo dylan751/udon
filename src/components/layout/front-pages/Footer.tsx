@@ -157,26 +157,23 @@ function Footer() {
             <span>{`© ${new Date().getFullYear()}, Made with `}</span>
             <span>{`❤️`}</span>
             <span>{` by `}</span>
-            <Link href='https://themeselection.com' target='_blank' className='font-medium text-white'>
-              ThemeSelection
+            <Link href='https://github.com/dylan751' target='_blank' className='font-medium text-white'>
+              Dylan
             </Link>
           </p>
           <div className='flex gap-6 items-center opacity-[0.78]'>
-            <IconButton component={Link} size='small' href='https://github.com/themeselection' target='_blank'>
+            <IconButton component={Link} size='small' href='https://github.com/dylan751' target='_blank'>
               <i className='ri-github-fill text-white text-lg' />
-            </IconButton>
-            <IconButton component={Link} size='small' href='https://www.facebook.com/ThemeSelections/' target='_blank'>
-              <i className='ri-facebook-fill text-white text-lg' />
-            </IconButton>
-            <IconButton component={Link} size='small' href='https://twitter.com/Theme_Selection' target='_blank'>
-              <i className='ri-twitter-fill text-white text-lg' />
             </IconButton>
             <IconButton
               component={Link}
               size='small'
-              href='https://in.linkedin.com/company/themeselection'
+              href='https://www.facebook.com/duong.nguyenhai.7140/'
               target='_blank'
             >
+              <i className='ri-facebook-fill text-white text-lg' />
+            </IconButton>
+            <IconButton component={Link} size='small' href='https://www.linkedin.com/in/zuongnh/' target='_blank'>
               <i className='ri-linkedin-fill text-white text-lg' />
             </IconButton>
           </div>

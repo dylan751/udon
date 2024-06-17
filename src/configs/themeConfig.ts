@@ -50,9 +50,9 @@ export type Config = {
 }
 
 const themeConfig: Config = {
-  templateName: 'Materio',
+  templateName: 'Cashbook',
   homePageUrl: '/home',
-  settingsCookieName: 'materio-mui-next-demo',
+  settingsCookieName: 'cashbook',
   mode: 'system', // 'system', 'light', 'dark'
   skin: 'default', // 'default', 'bordered'
   semiDark: false, // true, false

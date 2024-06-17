@@ -7,6 +7,8 @@ import Link from 'next/link'
 import classnames from 'classnames'
 
 // Hook Imports
+import IconButton from '@mui/material/IconButton'
+
 import useVerticalNav from '@menu/hooks/useVerticalNav'
 
 // Util Imports
@@ -30,22 +32,20 @@ const FooterContent = () => {
       </p>
       {!isBreakpointReached && (
         <div className='flex items-center gap-4'>
-          <Link href='https://themeselection.com/license' target='_blank' className='text-primary'>
-            License
-          </Link>
-          <Link href='https://themeselection.com' target='_blank' className='text-primary'>
-            More Themes
-          </Link>
-          <Link
-            href='https://demos.themeselection.com/materio-mui-nextjs-admin-template/documentation'
+          <IconButton component={Link} size='small' href='https://github.com/dylan751' target='_blank'>
+            <i className='ri-github-fill text-white text-lg' />
+          </IconButton>
+          <IconButton
+            component={Link}
+            size='small'
+            href='https://www.facebook.com/duong.nguyenhai.7140/'
             target='_blank'
-            className='text-primary'
           >
-            Documentation
-          </Link>
-          <Link href='https://themeselection.com/support' target='_blank' className='text-primary'>
-            Support
-          </Link>
+            <i className='ri-facebook-fill text-white text-lg' />
+          </IconButton>
+          <IconButton component={Link} size='small' href='https://www.linkedin.com/in/zuongnh/' target='_blank'>
+            <i className='ri-linkedin-fill text-white text-lg' />
+          </IconButton>
         </div>
       )}
     </div>

@@ -11,7 +11,7 @@ import styled from '@emotion/styled'
 import type { VerticalNavContextProps } from '@menu/contexts/verticalNavContext'
 
 // Component Imports
-import MaterioLogo from '@core/svg/Logo'
+// import MaterioLogo from '@core/svg/Logo'
 
 // Config Imports
 import themeConfig from '@configs/themeConfig'
@@ -69,7 +69,7 @@ const Logo = ({ color }: { color?: CSSProperties['color'] }) => {
 
   return (
     <div className='flex items-center min-bs-[24px]'>
-      <MaterioLogo className='text-[22px] text-primary' />
+      {/* <MaterioLogo className='text-[22px] text-primary' /> */}
       <LogoText
         color={color}
         ref={logoTextRef}

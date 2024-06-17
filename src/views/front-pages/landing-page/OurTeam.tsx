@@ -24,27 +24,9 @@ import frontCommonStyles from '@views/front-pages/styles.module.css'
 // Data
 const team = [
   {
-    name: 'Sophie Gilbert',
-    position: 'Project Manager',
-    image: '/images/front-pages/landing-page/sophie.png',
-    color: 'var(--mui-palette-primary-mainOpacity)'
-  },
-  {
-    name: 'Nannie Ford',
-    position: 'Development Lead',
-    image: '/images/front-pages/landing-page/nannie.png',
-    color: 'var(--mui-palette-error-mainOpacity)'
-  },
-  {
-    name: 'Chris Watkins',
-    position: 'Marketing Manager',
-    image: '/images/front-pages/landing-page/chris.png',
-    color: 'var(--mui-palette-success-mainOpacity)'
-  },
-  {
-    name: 'Paul Miles',
-    position: 'UI Designer',
-    image: '/images/front-pages/landing-page/paul.png',
+    name: 'Nguyen Hai Duong',
+    position: 'Project Owner',
+    image: '/images/front-pages/landing-page/duong.png',
     color: 'var(--mui-palette-info-mainOpacity)'
   }
 ]
@@ -111,10 +93,15 @@ const OurTeam = () => {
             <Typography variant='h5'> by Real People</Typography>
           </div>
           <Typography color='text.secondary' className='font-medium text-center'>
-            Who is behind these great-looking interfaces?
+            Who is behind this financial management platform?
           </Typography>
         </div>
-        <Grid container rowSpacing={16} columnSpacing={6} className='mbe-8 pbs-[100px]'>
+        <Grid
+          container
+          rowSpacing={16}
+          columnSpacing={6}
+          className='mbe-8 pbs-[100px] flex justify-center items-center'
+        >
           {team.map((member, index) => (
             <Grid item xs={12} md={6} lg={3} key={index}>
               <Card className='shadow-none border overflow-visible' color={member.color as ThemeColor}>
