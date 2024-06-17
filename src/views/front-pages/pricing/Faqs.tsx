@@ -22,9 +22,9 @@ type faqsDataTypes = {
 const faqsData: faqsDataTypes[] = [
   {
     id: 'panel1',
-    question: 'What counts towards the 100 responses limit?',
+    question: 'What counts towards the 20 projects limit?',
     answer:
-      'We count all responses submitted through all your forms in a month. If you already received 100 responses this month, you won’t be able to receive any more of them until next month when the counter resets.'
+      'We count all projects created through your organization in a year. If you already created 20 projects this year, you won’t be able to create any more of them until next year when the counter resets.'
   },
   {
     id: 'panel2',

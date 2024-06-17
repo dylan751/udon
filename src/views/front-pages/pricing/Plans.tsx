@@ -57,6 +57,17 @@ const features: FeatureType[] = [
     }
   },
   {
+    feature: 'No project limit',
+    starter: false,
+    pro: false,
+    enterprise: true,
+    addOnAvailable: {
+      starter: false,
+      pro: true,
+      enterprise: false
+    }
+  },
+  {
     feature: 'Product Support',
     starter: false,
     pro: true,
@@ -69,17 +80,6 @@ const features: FeatureType[] = [
   },
   {
     feature: 'Email Support',
-    starter: false,
-    pro: false,
-    enterprise: true,
-    addOnAvailable: {
-      starter: false,
-      pro: true,
-      enterprise: false
-    }
-  },
-  {
-    feature: 'Integrations',
     starter: false,
     pro: true,
     enterprise: true,
@@ -144,21 +144,21 @@ function Plans() {
               <tr>
                 <th>Time</th>
                 <th className=''>
-                  <>STARTER</>
+                  <>BASIC</>
                   <Typography variant='body2' className='capitalize'>
                     Free
                   </Typography>
                 </th>
                 <th className=''>
-                  <>Pro</>
+                  <>PREMIUM</>
                   <Typography variant='body2' className='capitalize'>
-                    $7.5/Month
+                    $29/Month
                   </Typography>
                 </th>
                 <th className=''>
-                  <>ENTERPRISE</>
+                  <>BUSINESS</>
                   <Typography variant='body2' className='capitalize'>
-                    $16/Month
+                    $49/Month
                   </Typography>
                 </th>
               </tr>

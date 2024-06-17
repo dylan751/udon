@@ -29,23 +29,30 @@ import ElementTwo from '@/assets/svg/front-pages/landing-page/ElementTwo'
 const pricingPlans = [
   {
     title: 'Basic Plan',
-    price: 20,
-    features: ['Timeline', 'Basic search', 'Live chat widget', 'Email marketing', 'Custom Forms', 'Traffic analytics'],
+    price: 0,
+    features: [
+      'Insights dashboards',
+      'User management',
+      'Invoice management',
+      '2 users per tenant',
+      'Up to 3 projects',
+      'Up to 5 categories per project'
+    ],
     supportType: 'Basic',
     supportMedium: 'Only Email',
     respondTime: 'AVG. Time: 24h',
     current: false
   },
   {
-    title: 'Favourite Plan',
-    price: 51,
+    title: 'Premium Plan',
+    price: 29,
     features: [
       'Everything in basic',
-      'Timeline with database',
-      'Advanced search',
-      'Marketing automation',
-      'Advanced chatbot',
-      'Campaign management'
+      'Role management',
+      'Project management',
+      '5 users per tenant',
+      'Up to 20 projects',
+      'Unlimited categories'
     ],
     supportType: 'Standard',
     supportMedium: 'Email & Chat',
@@ -53,15 +60,15 @@ const pricingPlans = [
     current: true
   },
   {
-    title: 'Standard Plan',
-    price: 99,
+    title: 'Business Plan',
+    price: 49,
     features: [
-      'Campaign management',
-      'Timeline with database',
-      'Fuzzy search',
-      'A/B testing sanbox',
+      'Everything in business',
       'Custom permissions',
-      'Social media automation'
+      'Project management',
+      '100 users per tenant',
+      'Customisable options',
+      'Alerts and notifications'
     ],
     supportType: 'Exclusive',
     supportMedium: 'Email, Chat & Google Meet',
