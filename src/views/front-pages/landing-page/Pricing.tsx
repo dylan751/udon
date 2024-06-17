@@ -167,7 +167,7 @@ function PricingPlan() {
                     <Chip variant='tonal' size='small' color='primary' label={plan.respondTime} />
                   </div>
                 </div>
-                <Button component={Link} href='/front-pages/payment' variant={plan.current ? 'contained' : 'outlined'}>
+                <Button component={Link} href='/home/payment' variant={plan.current ? 'contained' : 'outlined'}>
                   Get Started
                 </Button>
               </CardContent>

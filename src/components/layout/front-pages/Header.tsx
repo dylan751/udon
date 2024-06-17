@@ -53,14 +53,14 @@ const Header = ({ mode }: { mode: Mode }) => {
               <IconButton onClick={() => setIsDrawerOpen(true)} className='-mis-2'>
                 <i className='ri-menu-line text-textPrimary' />
               </IconButton>
-              <Link href='/front-pages/landing-page'>
+              <Link href='/home'>
                 <Logo />
               </Link>
               <FrontMenu mode={mode} isDrawerOpen={isDrawerOpen} setIsDrawerOpen={setIsDrawerOpen} />
             </div>
           ) : (
             <div className='flex items-center gap-10'>
-              <Link href='/front-pages/landing-page'>
+              <Link href='/home'>
                 <Logo />
               </Link>
               <FrontMenu mode={mode} isDrawerOpen={isDrawerOpen} setIsDrawerOpen={setIsDrawerOpen} />
@@ -72,7 +72,7 @@ const Header = ({ mode }: { mode: Mode }) => {
               <CustomIconButton
                 component={Link}
                 variant='contained'
-                href='https://themeselection.com/item/materio-mui-nextjs-admin-template/'
+                href='/home/pricing'
                 color='primary'
                 target='_blank'
               >
@@ -82,7 +82,7 @@ const Header = ({ mode }: { mode: Mode }) => {
               <Button
                 component={Link}
                 variant='contained'
-                href='https://themeselection.com/item/materio-mui-nextjs-admin-template/'
+                href='/home/pricing'
                 startIcon={<i className='ri-shopping-cart-line text-xl' />}
                 className='whitespace-nowrap'
                 target='_blank'

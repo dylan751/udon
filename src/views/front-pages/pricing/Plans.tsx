@@ -198,7 +198,7 @@ function Plans() {
                 <td></td>
                 {plans.map((plan, index) => (
                   <td key={index} className='text-center plb-[9px]'>
-                    <Button component={Link} href='/front-pages/payment' variant={plan.variant}>
+                    <Button component={Link} href='/home/payment' variant={plan.variant}>
                       {plan.label}
                     </Button>
                   </td>

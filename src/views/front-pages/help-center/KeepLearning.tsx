@@ -66,7 +66,7 @@ const KeepLearning = () => {
                     <Typography>{article.subtitle}</Typography>
                     <Button
                       component={Link}
-                      href='/front-pages/help-center/article/how-to-add-product-in-cart'
+                      href='/home/help-center/article/how-to-add-product-in-cart'
                       variant='outlined'
                     >
                       Read More

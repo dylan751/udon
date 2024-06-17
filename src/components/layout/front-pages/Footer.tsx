@@ -33,7 +33,7 @@ function Footer() {
           <Grid container rowSpacing={10} columnSpacing={12}>
             <Grid item xs={12} lg={5}>
               <div className='flex flex-col items-start gap-6'>
-                <Link href='/front-pages/landing-page'>
+                <Link href='/home'>
                   <Logo color='var(--mui-palette-common-white)' />
                 </Link>
                 <Typography color='white' className='lg:max-is-[390px] opacity-[0.78]'>
@@ -69,10 +69,10 @@ function Footer() {
                 Pages
               </Typography>
               <div className='flex flex-col gap-4'>
-                <Typography component={Link} href='/front-pages/pricing' color='white' className='opacity-[0.78]'>
+                <Typography component={Link} href='/home/pricing' color='white' className='opacity-[0.78]'>
                   Pricing
                 </Typography>
-                <Link href='/front-pages/payment' className='flex items-center gap-[10px]'>
+                <Link href='/home/payment' className='flex items-center gap-[10px]'>
                   <Typography color='white' className='opacity-[0.78]'>
                     Payment
                   </Typography>
@@ -96,16 +96,16 @@ function Footer() {
                 Products
               </Typography>
               <div className='flex flex-col gap-4'>
-                <Typography component={Link} href='/front-pages/landing-page' color='white' className='opacity-[0.78]'>
+                <Typography component={Link} href='/home' color='white' className='opacity-[0.78]'>
                   Page builder
                 </Typography>
-                <Typography component={Link} href='/front-pages/landing-page' color='white' className='opacity-[0.78]'>
+                <Typography component={Link} href='/home' color='white' className='opacity-[0.78]'>
                   Admin Dashboards
                 </Typography>
-                <Typography component={Link} href='/front-pages/landing-page' color='white' className='opacity-[0.78]'>
+                <Typography component={Link} href='/home' color='white' className='opacity-[0.78]'>
                   UI Kits
                 </Typography>
-                <Typography component={Link} href='/front-pages/landing-page' color='white' className='opacity-[0.78]'>
+                <Typography component={Link} href='/home' color='white' className='opacity-[0.78]'>
                   Illustrations
                 </Typography>
               </div>
