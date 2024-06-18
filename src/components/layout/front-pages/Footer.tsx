@@ -33,7 +33,7 @@ function Footer() {
           <Grid container rowSpacing={10} columnSpacing={12}>
             <Grid item xs={12} lg={5}>
               <div className='flex flex-col items-start gap-6'>
-                <Link href='/home'>
+                <Link href='/'>
                   <Logo color='var(--mui-palette-common-white)' />
                 </Link>
                 <Typography color='white' className='lg:max-is-[390px] opacity-[0.78]'>
@@ -69,19 +69,19 @@ function Footer() {
                 Pages
               </Typography>
               <div className='flex flex-col gap-4'>
-                <Typography component={Link} href='/home' color='white' className='opacity-[0.78]'>
+                <Typography component={Link} href='' color='white' className='opacity-[0.78]'>
                   Home
                 </Typography>
-                <Typography component={Link} href='/home/pricing' color='white' className='opacity-[0.78]'>
+                <Typography component={Link} href='/pricing' color='white' className='opacity-[0.78]'>
                   Pricing
                 </Typography>
-                <Link href='/home/payment' className='flex items-center gap-[10px]'>
+                <Link href='/payment' className='flex items-center gap-[10px]'>
                   <Typography color='white' className='opacity-[0.78]'>
                     Payment
                   </Typography>
                   <Chip label='New' color='primary' size='small' />
                 </Link>
-                <Typography component={Link} href='/home/help-center' color='white' className='opacity-[0.78]'>
+                <Typography component={Link} href='/help-center' color='white' className='opacity-[0.78]'>
                   Help Center
                 </Typography>
               </div>

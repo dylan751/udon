@@ -125,7 +125,7 @@ const KnowledgeBase = () => {
                         <div key={index} className='flex justify-between items-center gap-2'>
                           <Typography
                             component={Link}
-                            href='/home/help-center/article/how-to-add-product-in-cart'
+                            href='/help-center/article/how-to-add-product-in-cart'
                             color='text.primary'
                           >
                             {data.title}
@@ -141,7 +141,7 @@ const KnowledgeBase = () => {
                   </div>
                   <Button
                     component={Link}
-                    href='/home/help-center/article/how-to-add-product-in-cart'
+                    href='/help-center/article/how-to-add-product-in-cart'
                     endIcon={<DirectionalIcon ltrIconClass='ri-arrow-right-line' rtlIconClass='ri-arrow-left-line' />}
                   >
                     See all 6 articles

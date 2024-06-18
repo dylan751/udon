@@ -51,7 +51,7 @@ export type Config = {
 
 const themeConfig: Config = {
   templateName: 'Cashbook',
-  homePageUrl: '/home',
+  homePageUrl: '/',
   settingsCookieName: 'cashbook',
   mode: 'system', // 'system', 'light', 'dark'
   skin: 'default', // 'default', 'bordered'

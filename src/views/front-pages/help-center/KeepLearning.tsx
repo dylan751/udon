@@ -64,11 +64,7 @@ const KeepLearning = () => {
                     {article.svg}
                     <Typography variant='h5'>{article.title}</Typography>
                     <Typography>{article.subtitle}</Typography>
-                    <Button
-                      component={Link}
-                      href='/home/help-center/article/how-to-add-product-in-cart'
-                      variant='outlined'
-                    >
+                    <Button component={Link} href='/help-center/article/how-to-add-product-in-cart' variant='outlined'>
                       Read More
                     </Button>
                   </CardContent>

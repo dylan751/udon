@@ -37,7 +37,7 @@ const Questions = () => {
           <Grid item xs={12} lg={8}>
             <div className='flex flex-col gap-2'>
               <Breadcrumbs aria-label='breadcrumb'>
-                <Link className='hover:text-primary' href='/home/help-center'>
+                <Link className='hover:text-primary' href='/help-center'>
                   Help Center
                 </Link>
                 <Typography className='text-textPrimary'>How to add product in cart</Typography>

@@ -195,11 +195,11 @@ const DropdownMenu = (props: Props) => {
         component={Link}
         className={classnames('flex items-center gap-2 font-medium plb-3 pli-1.5 hover:text-primary', {
           'text-primary':
-            pathname === '/home/payment' ||
-            pathname === '/home/pricing' ||
-            pathname === '/home/checkout' ||
-            pathname === '/home/help-center' ||
-            pathname === '/home/help-center/article/how-to-add-product-in-cart'
+            pathname === '/payment' ||
+            pathname === '/pricing' ||
+            pathname === '/checkout' ||
+            pathname === '/help-center' ||
+            pathname === '/help-center/article/how-to-add-product-in-cart'
         })}
         {...(isBelowLgScreen
           ? {
@@ -244,9 +244,9 @@ const DropdownMenu = (props: Props) => {
           {pageData.map((page, index) => (
             <Link
               key={index}
-              href={'/home' + page.href}
+              href={page.href}
               className={classnames('flex items-center gap-3 focus:outline-none hover:text-primary', {
-                'text-primary': pathname.includes('/home' + page.href)
+                'text-primary': pathname.includes(page.href)
               })}
               onClick={handleLinkClick}
             >
