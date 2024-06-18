@@ -33,26 +33,26 @@ const FaqsData: FaqsDataTypes[] = [
     id: 'panel1',
     question: 'Do you charge for each upgrade?',
     answer:
-      'Lemon drops chocolate cake gummies carrot cake chupa chups muffin topping. Sesame snaps icing marzipan gummi bears macaroon dragée danish caramels powder. Bear claw dragée pastry topping soufflé. Wafer gummi bears marshmallow pastry pie.'
+      'No, we do not charge for each upgrade. Our upgrade process is designed to be seamless and cost-effective, providing users with enhanced features and capabilities without additional fees for each upgrade. Instead, users can enjoy a range of subscription plans that include access to all updates and new features as they are released.'
   },
   {
     id: 'panel2',
-    question: 'What is regular license?',
+    question: 'What is basic plan?',
     active: true,
     answer:
-      'Regular license can be used for end products that do not charge users for access or service(access is free and there will be no monthly subscription fee). Single regular license can be used for single end product and end product can be used by you or your client. If you want to sell end product to multiple clients then you will need to purchase separate license for each client. The same rule applies if you want to use the same end product on multiple domains(unique setup). For more info on regular license you can check official description.'
+      'The basic plan of our financial management website is free and includes access to insights dashboards, user management, and invoice management. It supports up to 2 users per tenant, allows for managing up to 3 projects, and includes up to 5 categories per project.'
   },
   {
     id: 'panel3',
-    question: 'What is extended license?',
+    question: 'What is business plan?',
     answer:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis et aliquid quaerat possimus maxime! Mollitia reprehenderit neque repellat deleniti delectus architecto dolorum maxime, blanditiis earum ea, incidunt quam possimus cumque.'
+      'The business plan of our financial management website is $49 per month. It includes everything in the business plan plus some advanced features: Custom permissions, project management & support for up to 100 users per tenant, customizable options, and over-expense alerts and notifications.'
   },
   {
     id: 'panel4',
-    question: 'Which license is applicable for SASS application?',
+    question: 'How can I start using the service?',
     answer:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis et aliquid quaerat possimus maxime! Mollitia reprehenderit neque repellat deleniti delectus architecto dolorum maxime, blanditiis earum ea, incidunt quam possimus cumque.'
+      'You can start using the service by signing up at our website. Simply visit https://hdwallet.toolhub.app, create a new account or sign up using Google, start the free trials and choose the plan that best suits your needs.'
   }
 ]
 
