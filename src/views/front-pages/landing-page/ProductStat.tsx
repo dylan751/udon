@@ -29,29 +29,29 @@ type StatData = {
 // Data
 const statData: StatData[] = [
   {
-    title: 'Completed Sites',
-    value: 137,
+    title: 'Functional Pages',
+    value: 10,
     icon: 'ri-layout-line',
     color: 'primary',
     isHover: false
   },
   {
     title: 'Working Hours',
-    value: 1100,
+    value: 3300,
     icon: 'ri-time-line',
     color: 'success',
     isHover: false
   },
   {
-    title: 'Happy Customers',
-    value: 137,
+    title: 'UI Components',
+    value: 67,
     icon: 'ri-user-smile-line',
     color: 'warning',
     isHover: false
   },
   {
-    title: 'Awards Winning',
-    value: 23,
+    title: 'User per Tenant',
+    value: 100,
     icon: 'ri-award-line',
     color: 'info',
     isHover: false
