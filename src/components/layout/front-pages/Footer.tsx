@@ -37,8 +37,8 @@ function Footer() {
                   <Logo color='var(--mui-palette-common-white)' />
                 </Link>
                 <Typography color='white' className='lg:max-is-[390px] opacity-[0.78]'>
-                  Most Powerful & Comprehensive 🤩 React NextJS Admin Template with Elegant Material Design & Unique
-                  Layouts.
+                  Most Powerful & Customisable 🤩 Multi-tenant Financial Management App with Elegant Design & Unique
+                  Features.
                 </Typography>
                 <div className='flex gap-4'>
                   <TextField
@@ -69,6 +69,9 @@ function Footer() {
                 Pages
               </Typography>
               <div className='flex flex-col gap-4'>
+                <Typography component={Link} href='/home' color='white' className='opacity-[0.78]'>
+                  Home
+                </Typography>
                 <Typography component={Link} href='/home/pricing' color='white' className='opacity-[0.78]'>
                   Pricing
                 </Typography>
@@ -78,16 +81,8 @@ function Footer() {
                   </Typography>
                   <Chip label='New' color='primary' size='small' />
                 </Link>
-                <Typography
-                  component={Link}
-                  href='/pages/misc/under-maintenance'
-                  color='white'
-                  className='opacity-[0.78]'
-                >
-                  Maintenance
-                </Typography>
-                <Typography component={Link} href='/pages/misc/coming-soon' color='white' className='opacity-[0.78]'>
-                  Coming Soon
+                <Typography component={Link} href='/home/help-center' color='white' className='opacity-[0.78]'>
+                  Help Center
                 </Typography>
               </div>
             </Grid>
@@ -96,17 +91,41 @@ function Footer() {
                 Products
               </Typography>
               <div className='flex flex-col gap-4'>
-                <Typography component={Link} href='/home' color='white' className='opacity-[0.78]'>
-                  Page builder
-                </Typography>
-                <Typography component={Link} href='/home' color='white' className='opacity-[0.78]'>
+                <Typography
+                  component={Link}
+                  href='https://hdwallet.toolhub.app'
+                  target='_blank'
+                  color='white'
+                  className='opacity-[0.78]'
+                >
                   Admin Dashboards
                 </Typography>
-                <Typography component={Link} href='/home' color='white' className='opacity-[0.78]'>
-                  UI Kits
+                <Typography
+                  component={Link}
+                  href='https://hdwallet.toolhub.app'
+                  target='_blank'
+                  color='white'
+                  className='opacity-[0.78]'
+                >
+                  Project Lists
                 </Typography>
-                <Typography component={Link} href='/home' color='white' className='opacity-[0.78]'>
-                  Illustrations
+                <Typography
+                  component={Link}
+                  href='https://hdwallet.toolhub.app'
+                  target='_blank'
+                  color='white'
+                  className='opacity-[0.78]'
+                >
+                  Invoice Management
+                </Typography>
+                <Typography
+                  component={Link}
+                  href='https://hdwallet.toolhub.app'
+                  target='_blank'
+                  color='white'
+                  className='opacity-[0.78]'
+                >
+                  Role Page
                 </Typography>
               </div>
             </Grid>

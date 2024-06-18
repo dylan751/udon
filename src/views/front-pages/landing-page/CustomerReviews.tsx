@@ -18,11 +18,12 @@ import AppKeenSlider from '@/libs/styles/AppKeenSlider'
 
 // SVG Imports
 import Lines from '@assets/svg/front-pages/landing-page/Lines'
-import Levis from '@assets/svg/front-pages/landing-page/Levis'
-import Continental from '@assets/svg/front-pages/landing-page/Continental'
-import Eckerd from '@assets/svg/front-pages/landing-page/Eckerd'
-import Dribbble from '@assets/svg/front-pages/landing-page/Dribbble'
-import Airbnb from '@assets/svg/front-pages/landing-page/Airbnb'
+
+import LaptopCharging from '@/assets/svg/front-pages/landing-page/LaptopCharging'
+import ElementOne from '@/assets/svg/front-pages/landing-page/ElementOne'
+import ElementTwo from '@/assets/svg/front-pages/landing-page/ElementTwo'
+import Curve from '@/assets/svg/front-pages/landing-page/Curve'
+import Cube from '@/assets/svg/front-pages/landing-page/Cube'
 
 // Styles Imports
 import frontCommonStyles from '@views/front-pages/styles.module.css'
@@ -30,75 +31,54 @@ import frontCommonStyles from '@views/front-pages/styles.module.css'
 // Data
 const data = [
   {
-    desc: "I've never used a theme as versatile and flexible as Vuexy. It's my go to for building dashboard sites on almost any project.",
-    svg: <Eckerd color='#2882C3' />,
+    desc: 'If you are a startup or a small business, using the Basic package is fine. In case there are too many projects, you can just hide the old projects.',
+    svg: <Cube color='#2882C3' />,
     rating: 5,
-    name: 'Eugenia Moore',
-    position: 'Founder of Hubspot'
+    name: 'Duong Nguyen',
+    position: 'Founder of Cashbook'
   },
   {
-    desc: 'Cashbook is awesome, and I particularly enjoy knowing that if I get stuck on something.',
-    svg: <Levis color='#A8112E' />,
+    desc: 'As a startup/business owner, you can also take advantage of the resource of 2 users to add 1 accountant, or outsource accounting.',
+    svg: <LaptopCharging color='#A8112E' />,
     rating: 5,
-    name: 'Tommy haffman',
-    position: 'Founder of Levis'
+    name: 'Duong Nguyen',
+    position: 'Founder of Cashbook'
   },
   {
-    desc: "This template is superior in so many ways. The code, the design, the regular updates, the support.. It's the whole package. Excellent Work.",
-    svg: <Airbnb color='#FF5A60' />,
+    desc: 'If you are already a business with a stable revenue source and a large number of projects, use the Premium package.',
+    svg: <ElementTwo color='#FF5A60' />,
     rating: 4,
-    name: 'Eugenia Moore',
-    position: 'CTO of Airbnb'
+    name: 'Duong Nguyen',
+    position: 'CTO of Cashbook'
   },
   {
-    desc: "All the requirements for developers have been taken into consideration, so I'm able to build any interface I want.",
-    svg: <Continental color='#F39409' />,
+    desc: 'The Premiun package will help you share work among many members of the accounting department, and easily control regulations levels and metrics online',
+    svg: <ElementOne color='#F39409' />,
     rating: 5,
-    name: 'Sara Smith',
-    position: 'Founder of Continental'
+    name: 'Duong Nguyen',
+    position: 'Founder of Cashbook'
   },
   {
-    desc: "I've never used a theme as versatile and flexible as Vuexy. It's my go to for building dashboard sites on almost any project.",
-    svg: <Dribbble color='#ea4c89' />,
+    desc: 'If you are an outsourced accountant, encourage your client businesses to open Free accounts using Premium package.',
+    svg: <Curve color='#ea4c89' />,
     rating: 5,
-    name: 'Tommy haffman',
-    position: 'Founder of Hubspot'
+    name: 'Duong Nguyen',
+    position: 'Founder of Cashbook'
   },
   {
-    desc: "I've never used a theme as versatile and flexible as Vuexy. It's my go to for building dashboard sites on almost any project.",
-    svg: <Eckerd color='#2882C3' />,
+    desc: "As an outsourced accountant, using the above way you will independently manage each customer's information, without mixing up data.",
+    svg: <Cube color='#2882C3' />,
     rating: 5,
-    name: 'Eugenia Moore',
-    position: 'Founder of Hubspot',
+    name: 'Duong Nguyen',
+    position: 'CTO of Cashbook',
     color: '#2882C3'
   },
   {
-    desc: 'Cashbook is awesome, and I particularly enjoy knowing that if I get stuck on something.',
-    svg: <Levis color='#A8112E' />,
+    desc: 'For every service package, we always leave the number of users for each organization >=2 to ensure the teamwork advantage of the system.',
+    svg: <LaptopCharging color='#A8112E' />,
     rating: 5,
-    name: 'Tommy haffman',
-    position: 'Founder of Levis'
-  },
-  {
-    desc: "This template is superior in so many ways. The code, the design, the regular updates, the support.. It's the whole package. Excellent Work.",
-    svg: <Airbnb color='#FF5A60' />,
-    rating: 4,
-    name: 'Eugenia Moore',
-    position: 'CTO of Airbnb'
-  },
-  {
-    desc: "All the requirements for developers have been taken into consideration, so I'm able to build any interface I want.",
-    svg: <Continental color='#F39409' />,
-    rating: 5,
-    name: 'Sara Smith',
-    position: 'Founder of Continental'
-  },
-  {
-    desc: 'Cashbook is awesome, and I particularly enjoy knowing that if I get stuck on something.',
-    svg: <Dribbble color='#ea4c89' />,
-    rating: 5,
-    name: 'Tommy haffman',
-    position: 'Founder of Levis'
+    name: 'Duong Nguyen',
+    position: 'Founder of Cashbook'
   }
 ]
 
@@ -184,17 +164,17 @@ const CustomerReviews = () => {
         <div className='flex items-center justify-center mbe-6 gap-3'>
           <Lines />
           <Typography color='text.primary' className='font-medium uppercase'>
-            Real Customers Reviews
+            Real Reviews
           </Typography>
         </div>
         <div className='flex items-center gap-2 mbe-1'>
           <Typography variant='h4' className='font-bold'>
             Success stories
           </Typography>
-          <Typography variant='h5'>from clients</Typography>
+          <Typography variant='h5'>from us</Typography>
         </div>
         <Typography color='text.secondary' className='font-medium text-center'>
-          See what our customers have to say about their experience.
+          See what we suggest to enhance your own experience.
         </Typography>
       </div>
       <AppKeenSlider>
@@ -238,11 +218,11 @@ const CustomerReviews = () => {
         </>
       </AppKeenSlider>
       <div className='flex flex-wrap items-center justify-center gap-x-16 gap-y-6 mli-3'>
-        <Levis color='var(--mui-palette-text-secondary)' />
-        <Continental color='var(--mui-palette-text-secondary)' />
-        <Airbnb color='var(--mui-palette-text-secondary)' />
-        <Eckerd color='var(--mui-palette-text-secondary)' />
-        <Dribbble color='var(--mui-palette-text-secondary)' />
+        <LaptopCharging color='var(--mui-palette-text-secondary)' />
+        <ElementOne color='var(--mui-palette-text-secondary)' />
+        <ElementTwo color='var(--mui-palette-text-secondary)' />
+        <Cube color='var(--mui-palette-text-secondary)' />
+        <Curve color='var(--mui-palette-text-secondary)' />
       </div>
     </section>
   )
