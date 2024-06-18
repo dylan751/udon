@@ -28,7 +28,7 @@ const GetStarted = () => {
           frontCommonStyles.layoutSpacing
         )}
       >
-        <div className='flex flex-col items-start gap-y-8 gap-x-4 pbs-9 lg:plb-9 z-[1]'>
+        <div className='flex flex-col items-start gap-y-4 gap-x-4 pbs-9 lg:plb-9 z-[1]'>
           <div className='flex flex-col gap-1'>
             <Typography color='primary' className='font-bold text-[32px]'>
               Ready to Get Started?
@@ -42,8 +42,19 @@ const GetStarted = () => {
             href='/home/payment'
             variant='contained'
             endIcon={<DirectionalIcon ltrIconClass='ri-arrow-right-line' rtlIconClass='ri-arrow-left-line' />}
+            color='info'
           >
-            Get Started
+            Process to payment
+          </Button>
+          or
+          <Button
+            component={Link}
+            href='https://hdwallet.toolhub.app'
+            target='_blank'
+            variant='contained'
+            endIcon={<DirectionalIcon ltrIconClass='ri-arrow-right-line' rtlIconClass='ri-arrow-left-line' />}
+          >
+            Get Started Free
           </Button>
         </div>
         <div className='flex pbs-4 lg:pbs-[60px] md:pie-4 z-[1]'>
