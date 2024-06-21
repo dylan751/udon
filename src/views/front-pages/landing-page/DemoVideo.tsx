@@ -93,7 +93,7 @@ const DemoVideo = ({ mode }: { mode: Mode }) => {
           <ReactPlayer
             playing
             controls
-            url='/videos/cashbook-demo.mov'
+            url='https://www.youtube.com/watch?v=Kw2oc-bygEU'
             height={smallScreen ? 280 : 440}
             className='bg-black !is-full'
             light={
