@@ -10,6 +10,7 @@ import type { Mode } from '@core/types'
 import HeroSection from './HeroSection'
 import UsefulFeature from './UsefulFeature'
 import CustomerReviews from './CustomerReviews'
+import DemoVideo from './DemoVideo'
 import OurTeam from './OurTeam'
 import Pricing from './Pricing'
 import ProductStat from './ProductStat'
@@ -35,6 +36,7 @@ const LandingPageWrapper = ({ mode }: { mode: Mode }) => {
       <HeroSection mode={mode} />
       <UsefulFeature />
       <CustomerReviews />
+      <DemoVideo mode={mode} />
       <OurTeam />
       <Pricing />
       <ProductStat />
